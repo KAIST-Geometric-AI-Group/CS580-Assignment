@@ -57,7 +57,7 @@ git push -u origin main
 ```
 3. Create `conda` environment containing all necessary packages and activate the environment.
 ```
-conda env create -f environment.yml
+conda env create -f environment.yaml
 conda activate cs580-rt
 ```
 4. Check if the environment is properly set up by running the main script. The script should crash with `NotImplementedError` since its main functionalities are not implemented yet.
